@@ -132,4 +132,10 @@ python3 trt_llm_speed_test.py --engine_dir ../qwen2.5-1.5b-instruct_engine_fp8
 python3 pytorch_speed_test.py --quantization fp8
 ```
 
+## Result 1: FP16 Comparison (vllm vs tensort-llm backend vs pytorch backend)
+<img width="724" alt="image" src="https://github.com/user-attachments/assets/372f1a27-3245-45ce-ab28-7fe7eaef82f2" />
+
+## Result 2: FP8 Comparison (vllm vs tensort-llm backend vs pytorch backend)
+<img width="731" alt="image" src="https://github.com/user-attachments/assets/8e2d31b0-370c-4495-a795-a580e52e7fbb" />
+
 ---
